@@ -19,6 +19,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: './$(buildConfiguration)/$(framework)'
+    PathtoPublish: './bin/$(buildConfiguration)/$(framework)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
